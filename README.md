@@ -1,6 +1,6 @@
 # Spark Core App Thermostat: SCAT
 
-This is the source code of the Spark Core App Thermostat. The app is heavily based on the official Spark app for android. I mainly changed the TinkerFragment.xml file and the corresponding activity. I also added basic functions to the ApiFacade file that allows for calling of any function on your Spark Core. I intent to make a "clean" version of this app, without the Thermostat, available soon.
+This is the source code of the Spark Core App Thermostat. The app is heavily based on the official Spark app for android. The source code for that app can be found at https://github.com/spark/android-app. I mainly changed the TinkerFragment.xml file and the corresponding activity. I also added basic functions to the ApiFacade file that allows for calling of any function on your Spark Core. I intent to make a "clean" version of this app, without the Thermostat, available soon.
 
 This app assumes that the SCATFirmware is running on your core. The easiest way to do this is by opening the Spark IDE at www.spark.io/build and copy the content of the file SCATFirmware from the firmware folder to the IDE. Next, flash your core with the firmware. If you have the SCATFirmware in your Spark Account, you can reflash it from the app: I changed the "reflash tinker" function to reflash SCATFirmware instead.
 
