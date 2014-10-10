@@ -168,13 +168,13 @@ public class TinkerFragment extends BaseFragment implements OnClickListener {
 				api.reflashApp(device.id, "scatfirmware");
 				return true;
 
-//			case R.id.action_clear_tinker:
+			case R.id.action_clear_tinker:
 //				prefs.clearTinker(device.id);
 //				for (Pin pin : allPins) {
 //					pin.setConfiguredAction(PinAction.NONE);
 //					pin.reset();
 //				}
-//				return true;
+				return true;
 		}
 		return super.onOptionsItemSelected(item);
 	}
@@ -276,14 +276,14 @@ public class TinkerFragment extends BaseFragment implements OnClickListener {
 		View instructions = Ui.findView(this, R.id.tinker_instructions);
 
 		// set cyan on "D7" text
-		TextView instructions3 = Ui.findView(instructions, R.id.tinker_instructions_3);
-		String d7 = "D7";
-		String instructions3Text = getString(R.string.tinker_instructions_3);
-		int idx = instructions3Text.indexOf(d7);
-		int cyan = getResources().getColor(R.color.cyan);
-		Spannable str = (Spannable) instructions3.getText();
-		str.setSpan(new ForegroundColorSpan(cyan), idx, idx + d7.length(),
-				Spanned.SPAN_EXCLUSIVE_EXCLUSIVE);
+//		TextView instructions3 = Ui.findView(instructions, R.id.tinker_instructions_3);
+//		String d7 = "D7";
+//		String instructions3Text = getString(R.string.tinker_instructions_3);
+//		int idx = instructions3Text.indexOf(d7);
+//		int cyan = getResources().getColor(R.color.cyan);
+//		Spannable str = (Spannable) instructions3.getText();
+//		str.setSpan(new ForegroundColorSpan(cyan), idx, idx + d7.length(),
+//				Spanned.SPAN_EXCLUSIVE_EXCLUSIVE);
 
 		// set visible and then set it to disappear when we're done. and then
 		// never show up again.

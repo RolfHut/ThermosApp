@@ -82,11 +82,12 @@ int drawable tinker_pin_sunflower 0x7f02002c
 int drawable tinker_pin_write_high 0x7f02002d
 int drawable white_circle 0x7f02002e
 int id action_build_your_own_core_app 0x7f0b0047
+int id action_clear_tinker 0x7f0b004d
 int id action_contribute 0x7f0b0049
 int id action_documentation 0x7f0b0048
 int id action_forgot_password 0x7f0b0043
 int id action_log_out 0x7f0b0044
-int id action_reflash_tinker 0x7f0b004d
+int id action_reflash_tinker 0x7f0b004e
 int id action_rename_core 0x7f0b004c
 int id action_report_a_bug 0x7f0b004a
 int id action_set_up_a_new_core 0x7f0b004b

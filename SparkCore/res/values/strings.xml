@@ -13,9 +13,9 @@
     <!-- tinker -->
     <string name="your_core_is_set_up">Your Core is set up!</string>
     <string name="welcome_to_tinker">Welcome to SCAT.</string>
-    <string name="tinker_instructions_1">This app allows you to control the temperature in your house!</string>
-    <string name="tinker_instructions_2">Make Sure that the SCAT firmware runs on your Spark Core.</string>
-    <string name="tinker_instructions_3">For more info see github.com/rolfhut/SCAT.</string>
+    <string name="tinker_instructions_1">Control the temperature in your house from anywhere!</string>
+    <string name="tinker_instructions_2">Make sure the SCATfirmware is running</string>
+    <string name="tinker_instructions_3">on your Spark Core! See Github.com/RolfHut/SCAT</string>
     <string name="tinker_instructions_4">Enjoy!\n<i>-The Spark Team</i></string>
     <string name="Temperature_Heading">Enjoy!\n<i>-The Spark Team</i></string>
     

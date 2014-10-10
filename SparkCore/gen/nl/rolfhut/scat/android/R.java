@@ -132,11 +132,12 @@ containing a value of this type.
     }
     public static final class id {
         public static final int action_build_your_own_core_app=0x7f0b0047;
+        public static final int action_clear_tinker=0x7f0b004d;
         public static final int action_contribute=0x7f0b0049;
         public static final int action_documentation=0x7f0b0048;
         public static final int action_forgot_password=0x7f0b0043;
         public static final int action_log_out=0x7f0b0044;
-        public static final int action_reflash_tinker=0x7f0b004d;
+        public static final int action_reflash_tinker=0x7f0b004e;
         public static final int action_rename_core=0x7f0b004c;
         public static final int action_report_a_bug=0x7f0b004a;
         public static final int action_set_up_a_new_core=0x7f0b004b;
